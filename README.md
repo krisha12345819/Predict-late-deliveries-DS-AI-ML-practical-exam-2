@@ -338,6 +338,15 @@ p_lr   = logreg.predict_proba(X_new)[:, 1]           # 📈 Logistic-regression 
 | 🏁 Test set | Evaluated **once** per final model — no tuning, no seed hunting |
 
 ---
+## 🎥 Project Demo
+
+<div align="center">
+
+[![Watch Demo](https://img.shields.io/badge/▶️-Watch_Project_Demo-red?style=for-the-badge)](https://drive.google.com/file/d/1-xPQj4pJBKIx7btKa9lhB7dbIi8QggGs/view?usp=sharing)
+
+</div>
+
+---
 
 ## ⚠️ Limitations & Honest Notes
 
