@@ -1,0 +1,58 @@
+{
+  "raw_shape": [
+    305,
+    7
+  ],
+  "exact_duplicate_rows": 5,
+  "missing_counts_raw": {
+    "record_id": 0,
+    "distance": 15,
+    "load": 15,
+    "traffic": 0,
+    "staff": 0,
+    "group": 0,
+    "late": 0
+  },
+  "target_counts_raw": {
+    "0": 156,
+    "1": 149
+  },
+  "clean_shape": [
+    300,
+    7
+  ],
+  "unique_record_ids_after_cleaning": 300,
+  "missing_counts_clean": {
+    "record_id": 0,
+    "distance": 15,
+    "load": 15,
+    "traffic": 0,
+    "staff": 0,
+    "group": 0,
+    "late": 0
+  },
+  "target_counts_clean": {
+    "0": 155,
+    "1": 145
+  },
+  "partition_sizes": {
+    "fit": 192,
+    "validation": 48,
+    "test": 60
+  },
+  "target_counts_by_partition": {
+    "fit": {
+      "0": 99,
+      "1": 93
+    },
+    "validation": {
+      "0": 25,
+      "1": 23
+    },
+    "test": {
+      "0": 31,
+      "1": 29
+    }
+  },
+  "partitions_pairwise_disjoint": true
+}

@@ -1,0 +1,20 @@
+{
+  "H0": "mean distance G1 == mean distance G2",
+  "H1": "mean distance G1 != mean distance G2",
+  "alpha": 0.05,
+  "n_G1_observed": 104,
+  "n_G2_observed": 80,
+  "mean_G1": 50.24048076923077,
+  "mean_G2": 49.0995,
+  "welch_t_statistic": 0.7061612423464614,
+  "welch_df": 169.24630441397628,
+  "p_value": 0.48105881393425987,
+  "decision": "fail to reject H0",
+  "overall_n": 184,
+  "overall_mean": 49.74440217391305,
+  "overall_se": 0.7988311009024627,
+  "ci95_lower": 48.16829889365394,
+  "ci95_upper": 51.320505454172164,
+  "shapiro_W_distance": 0.9885264459622218,
+  "shapiro_p_distance": 0.1433298201571686
+}

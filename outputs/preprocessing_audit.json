@@ -1,0 +1,59 @@
+{
+  "feature_names": [
+    "distance",
+    "load",
+    "traffic",
+    "staff",
+    "engineered_feature",
+    "group_G1",
+    "group_G2"
+  ],
+  "shapes": {
+    "fit": [
+      192,
+      7
+    ],
+    "validation": [
+      48,
+      7
+    ],
+    "test": [
+      60,
+      7
+    ]
+  },
+  "all_finite": {
+    "fit": true,
+    "val": true,
+    "test": true
+  },
+  "imputer_medians_from_fit": {
+    "distance": 50.2,
+    "load": 49.965,
+    "traffic": 49.635000000000005,
+    "staff": 50.265
+  },
+  "scaler_mean_from_fit": {
+    "distance": 49.763385416666665,
+    "load": 50.249583333333334,
+    "traffic": 49.30489583333334,
+    "staff": 50.22625,
+    "engineered_feature": 1.0172269193090573
+  },
+  "scaler_scale_from_fit": {
+    "distance": 10.579250204675219,
+    "load": 10.377931756121844,
+    "traffic": 10.42701159596951,
+    "staff": 9.217257562809378,
+    "engineered_feature": 0.29967929288536294
+  },
+  "one_hot_categories": [
+    "G1",
+    "G2"
+  ],
+  "handle_unknown": "ignore",
+  "excluded_from_models": [
+    "late (target)",
+    "record_id (identifier)"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "target": "late",
+  "predictors": [
+    "distance",
+    "load",
+    "traffic",
+    "staff",
+    "engineered_feature",
+    "group_G1",
+    "group_G2"
+  ],
+  "baseline": "DummyClassifier(strategy='most_frequent')",
+  "classifier": "LogisticRegression(max_iter=1000, random_state=42), default L2 C=1.0, lbfgs",
+  "threshold": 0.5,
+  "undefined_precision_recall": "reported as 0 (zero_division=0)",
+  "fit_ids": "outputs/splits.csv partition=='fit' (n=192)",
+  "test_ids": "outputs/splits.csv partition=='test' (n=60)"
+}
